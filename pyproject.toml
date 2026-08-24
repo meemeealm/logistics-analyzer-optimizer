@@ -1,0 +1,17 @@
+[project]
+name = "logistics-cost-analyzer"
+version = "0.1.0"
+description = "A professional Python CLI data science tool for logistics cost optimization, route and carrier analysis, trend tracking, and ML regression."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "scikit-learn>=1.2.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

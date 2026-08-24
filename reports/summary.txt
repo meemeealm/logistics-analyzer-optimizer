@@ -1,0 +1,43 @@
+================================================================
+           LOGISTICS COST ANALYZER - EXECUTIVE SUMMARY          
+================================================================
+Generated On:            2026-08-24 15:26:40
+Analysis Date Range:     Jan 2026 - Jun 2026
+Total Shipments:         1,246
+Total Logistics Cost:    ₱22,291,225
+Average Shipment Cost:   ₱17,890.23
+Median Shipment Cost:    ₱16,395.56
+Average Cost / km:       ₱43.72
+Average Cost / kg:       ₱61.10
+On-Time Delivery Rate:   90.4%
+Average Transit Time:    3.4 days
+----------------------------------------------------------------
+TOP 5 ROUTES BY EXPENDITURE:
+  1. Manila → Davao                74 shipments | Total:   ₱1,913,002 | Avg:   ₱25,851
+  2. Manila → Cagayan de Oro       66 shipments | Total:   ₱1,640,172 | Avg:   ₱24,851
+  3. General Santos → Manila       47 shipments | Total:   ₱1,291,954 | Avg:   ₱27,488
+  4. Davao → Manila                46 shipments | Total:   ₱1,144,031 | Avg:   ₱24,870
+  5. Manila → Iloilo               66 shipments | Total:   ₱1,039,866 | Avg:   ₱15,756
+----------------------------------------------------------------
+CARRIER PERFORMANCE RANKING:
+  1. Carrier C        Score: 95.9/100 | Avg Cost:  ₱19,293 | On-Time:  96.3%
+  2. Carrier A        Score: 94.6/100 | Avg Cost:  ₱18,243 | On-Time:  93.6%
+  3. Carrier D        Score: 94.3/100 | Avg Cost:  ₱17,065 | On-Time:  89.8%
+  4. Carrier E        Score: 91.6/100 | Avg Cost:  ₱19,055 | On-Time:  90.2%
+  5. Carrier B        Score: 86.0/100 | Avg Cost:  ₱16,387 | On-Time:  82.5%
+----------------------------------------------------------------
+KEY FINDINGS:
+  1. Manila → Davao represents the largest share of transportation spending (₱1.91M, or 8.6% of total budget).
+  2. Logistics costs peaked during April 2026 → May 2026 with a +7.4% month-over-month increase.
+  3. Carrier B offers the lowest average cost per shipment (₱16,387), but delivers a lower on-time rate (82.5%) compared to Carrier C (96.3% on-time at ₱19,293).
+  4. Shipping Base Cost exhibits the strongest numerical relationship with logistics cost (Pearson r = +0.98).
+  5. Statistical regression model explains 98.5% of cost variance with an average prediction accuracy of ±₱806.
+----------------------------------------------------------------
+STRATEGIC RECOMMENDATIONS:
+  → Prioritize rate renegotiation and shipment consolidation for high-spend corridor 'Manila → Davao' to yield the largest absolute monetary savings.
+  → Investigate root drivers of the cost surge during April 2026 → May 2026 (e.g., fuel price spikes, surcharges, or peak demand volatility) to build cost hedging strategies.
+  → Adopt a tiered carrier assignment strategy: Allocate time-critical deliveries to Carrier C and bulk/flexible freight to Carrier B to balance speed against unit costs.
+  → Monitor cost-per-kilometer and cargo density thresholds to optimize truckload capacity and prevent deadhead mileage.
+================================================================
+END OF SUMMARY
+================================================================

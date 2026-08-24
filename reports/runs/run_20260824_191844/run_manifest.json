@@ -1,0 +1,22 @@
+{
+  "run_id": "run_20260824_191844",
+  "timestamp_utc": "2026-08-24T19:18:44.443820+00:00",
+  "created_at_local": "2026-08-24T19:18:44.433727",
+  "input_source": "default",
+  "artifacts_count": 13,
+  "artifacts": [
+    "summary.txt",
+    "cost_vs_weight.png",
+    "monthly_analysis.csv",
+    "on_time_delivery_by_carrier.png",
+    "regression_results.txt",
+    "monthly_cost_trend.png",
+    "route_analysis.csv",
+    "top_routes.png",
+    "carrier_analysis.csv",
+    "carrier_cost_comparison.png",
+    "cost_driver_analysis.csv",
+    "cost_distribution.png",
+    "cost_vs_distance.png"
+  ]
+}
