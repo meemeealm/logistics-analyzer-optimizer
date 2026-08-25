@@ -628,7 +628,7 @@ def train_regression_model(df: pd.DataFrame, output_dir: Path) -> Dict[str, Any]
     report_lines.extend([
         "-" * 60,
         "BUSINESS INTERPRETATION:",
-        f"  The regression model accounts for approximately {r2*100:.1f}% of the total",
+        f"  The model accounts for approximately {r2*100:.1f}% of the total",
         "  variation in logistics shipping costs across routes and carriers.",
         f"  On unseen test shipments, the average prediction error is {format_currency(mae, 0)}.",
         "=" * 60,
@@ -975,7 +975,7 @@ def generate_business_insights(
 
     # 5. Regression Model Finding
     findings.append(
-        f"Statistical regression model explains {regression_info['r2']*100:.1f}% of cost variance "
+        f"The model explains {regression_info['r2']*100:.1f}% of cost variance "
         f"with an average prediction accuracy of ±{format_currency(regression_info['mae'], 0)}."
     )
 
