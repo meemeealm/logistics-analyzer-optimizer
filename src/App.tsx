@@ -1017,11 +1017,6 @@ export default function App() {
                 {[
                   { id: "HOWTO.md", label: "HOWTO.md (UI Guide)" },
                   { id: "README.md", label: "README.md (Full Specs)" },
-                  { id: "input_watcher.py", label: "input_watcher.py" },
-                  { id: "artifacts_handler.py", label: "artifacts_handler.py" },
-                  { id: "structured_logger.py", label: "structured_logger.py" },
-                  { id: "logistics_cost_analyzer.py", label: "logistics_cost_analyzer.py" },
-                  { id: "generate_sample_data.py", label: "generate_sample_data.py" },
                 ].map((f) => (
                   <button
                     key={f.id}
