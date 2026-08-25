@@ -326,10 +326,10 @@ export default function App() {
             { id: "charts", label: "Generated Charts (7)", icon: TrendingUp },
             { id: "tables", label: "Data Tables & CSVs", icon: FileSpreadsheet },
             { id: "runs", label: "Packaged Runs & ZIPs", icon: Archive, badge: runsList.length },
-            { id: "logs", label: "JSON Logs & Observability", icon: FileJson, badge: logsList.length },
-            { id: "watcher", label: "Debounced Watcher", icon: Radio },
+            { id: "logs", label: "Observability", icon: FileJson, badge: logsList.length },
+            { id: "watcher", label: "Debounced Files", icon: Radio },
             { id: "terminal", label: "Terminal & CLI Output", icon: Terminal },
-            { id: "docs", label: "User Guide (HOWTO) & Code", icon: BookOpen },
+            { id: "docs", label: "User Guide & Code", icon: BookOpen },
           ].map((tab) => {
             const Icon = tab.icon;
             const isActive = activeTab === tab.id;
