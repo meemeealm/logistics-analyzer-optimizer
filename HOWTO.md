@@ -15,7 +15,7 @@ Welcome to the **Logistics Cost Analyzer Web Dashboard**. This guide explains ev
 7. [Tab 2: Generated Charts (7 Visualizations)](#tab-2-generated-charts)
 8. [Tab 3: Data Tables & CSV Exports](#tab-3-data-tables--csv-exports)
 9. [Tab 4: Packaged Runs & Archives](#tab-4-packaged-runs--archives)
-10. [Tab 5: JSON Logs & Observability](#tab-5-json-logs--observability)
+10. [Tab 5: Logs & Observability](#tab-5-json-logs--observability)
 11. [Tab 6: Debounced Watcher Console](#tab-6-debounced-watcher-console)
 12. [Tab 7: Terminal & CLI Output](#tab-7-terminal--cli-output)
 13. [Tab 8: Code & Documentation Viewer](#tab-8-code--documentation-viewer)
@@ -125,7 +125,7 @@ Script: `structured_logger.py`
 * **Generated Charts (7)**: All 7 publication-grade matplotlib/seaborn charts with real-time regeneration.
 * **Data Tables & CSVs**: Interactive spreadsheet preview with CSV download buttons.
 * **Packaged Runs & ZIPs**: History of historical runs with file counts, timestamps, and direct ZIP download buttons.
-* **JSON Logs & Observability**: Real-time structured event logs with level filtering.
+* **Logs & Observability**: Real-time structured event logs with level filtering.
 * **Debounced Watcher**: Status, architecture configuration, and one-click test execution for the file watcher.
 * **Terminal & CLI Output**: Live execution console streaming subprocess stdout and stderr.
 * **User Guide & Code**: Code browser for all project files with one-click clipboard copying.

@@ -326,10 +326,10 @@ export default function App() {
             { id: "charts", label: "Generated Charts (7)", icon: TrendingUp },
             { id: "tables", label: "Data Tables & CSVs", icon: FileSpreadsheet },
             { id: "runs", label: "Packaged Runs & ZIPs", icon: Archive, badge: runsList.length },
-            { id: "logs", label: "JSON Logs & Observability", icon: FileJson, badge: logsList.length },
-            { id: "watcher", label: "Debounced Watcher", icon: Radio },
+            { id: "logs", label: "Observability", icon: FileJson, badge: logsList.length },
+            { id: "watcher", label: "Debounced Files", icon: Radio },
             { id: "terminal", label: "Terminal & CLI Output", icon: Terminal },
-            { id: "docs", label: "User Guide (HOWTO) & Code", icon: BookOpen },
+            { id: "docs", label: "User Guide & Code", icon: BookOpen },
           ].map((tab) => {
             const Icon = tab.icon;
             const isActive = activeTab === tab.id;
@@ -1017,11 +1017,6 @@ export default function App() {
                 {[
                   { id: "HOWTO.md", label: "HOWTO.md (UI Guide)" },
                   { id: "README.md", label: "README.md (Full Specs)" },
-                  { id: "input_watcher.py", label: "input_watcher.py" },
-                  { id: "artifacts_handler.py", label: "artifacts_handler.py" },
-                  { id: "structured_logger.py", label: "structured_logger.py" },
-                  { id: "logistics_cost_analyzer.py", label: "logistics_cost_analyzer.py" },
-                  { id: "generate_sample_data.py", label: "generate_sample_data.py" },
                 ].map((f) => (
                   <button
                     key={f.id}

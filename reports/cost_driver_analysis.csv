@@ -1,9 +1,0 @@
-variable,raw_column,correlation
-Shipping Base Cost,shipping_cost,0.985
-Weight (kg),weight_kg,0.782
-Handling Cost,handling_cost,0.775
-Distance (km),distance_km,0.608
-Fuel Cost,fuel_cost,0.601
-Delivery Days,delivery_days,0.501
-Cost per km,cost_per_km,0.091
-Cost per kg,cost_per_kg,-0.067
