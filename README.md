@@ -1,6 +1,8 @@
 # Logistics Cost Analyzer
 
-A high-performance, professional Python command-line data science toolkit engineered for supply chain and transportation logistics cost optimization, carrier performance evaluation, route cost tracking, cost driver analysis, and predictive cost estimation.
+A high-performance, Python command-line toolkit for supply chain and transportation logistics cost optimization, carrier performance evaluation, route cost tracking, cost driver analysis, and predictive cost estimation.
+
+[Click here to view example outputs.](./app/reports/)
 
 ---
 
@@ -29,7 +31,7 @@ A high-performance, professional Python command-line data science toolkit engine
 
 Transportation and logistics costs frequently represent 40% to 60% of total operational expenditure in modern supply chains. Due to decentralized freight data, seasonal fuel fluctuations, cargo weight variances, and carrier performance disparities, logistics managers struggle to isolate inefficiencies and make data-driven contracting decisions.
 
-**Logistics Cost Analyzer** solves this by offering an automated, reproducible end-to-end data science pipeline. By placing your shipment ledger into `input/` and running a single command, the system validates the dataset, executes robust data cleaning, computes derived unit metrics, analyzes route and carrier costs, identifies primary cost drivers, trains an interpretable predictive regression model, creates publication-quality charts, and generates executive business recommendations.
+**Logistics Cost Analyzer** solves this by offering an automated, reproducible end-to-end data science pipeline. By placing shipment ledger into `input/` and running a single command, the system validates the dataset, executes robust data cleaning, computes derived unit metrics, analyzes route and carrier costs, identifies primary cost drivers, trains an interpretable predictive regression model, creates charts, and generates executive business recommendations.
 
 ---
 
@@ -37,7 +39,7 @@ Transportation and logistics costs frequently represent 40% to 60% of total oper
 
 | What This Tool Is | What This Tool Is NOT |
 | :--- | :--- |
-| **A robust local CLI analytics engine** written in Python (pandas, numpy, scikit-learn, matplotlib, seaborn). | **Not a bloated web server or cloud database system**. Requires no API keys, cloud tokens, or active internet. |
+| **A local CLI analytics engine** written in Python (pandas, numpy, scikit-learn, matplotlib, seaborn). | **Not a bloated web server or cloud database system**. Requires no API keys, cloud tokens, or active internet. |
 | **An automated reporting and visualization pipeline** producing clean CSV exports, markdown summaries, and high-resolution PNG charts. | **Not an anomaly detection system**. It does not perform Isolation Forest, Z-score, or IQR outlier filtering. |
 | **A rigorous data cleaner & feature engineering tool** designed for shipment log data. | **Not an ERP or TMS replacement**. It consumes CSV shipment records exported from existing TMS/WMS software. |
 | **An interpretable statistical & regression modeling tool** evaluating cost drivers and price predictions. | **Not a black-box deep neural network**. All statistical models and scoring formulas are transparent and explainable. |
@@ -64,7 +66,7 @@ Transportation and logistics costs frequently represent 40% to 60% of total oper
 ## Project Structure
 
 ```text
-logistics-cost-analyzer/
+logistics-cost-analyzer/app/
 │
 ├── logistics_cost_analyzer.py    # Main CLI analytics pipeline engine
 ├── input_watcher.py              # Automated folder watcher with debouncing daemon
@@ -109,7 +111,7 @@ logistics-cost-analyzer/
 
 ## Installation & Environment Setup
 
-You can manage your environment using **`uv`** (ultra-fast, modern Python package runner) or standard **`venv` + `pip`**.
+You can manage environment using **`uv`** (ultra-fast, modern Python package runner) or standard **`venv` + `pip`**.
 
 ### Option A: Using `uv` (Recommended)
 
