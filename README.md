@@ -253,12 +253,14 @@ Computes Pearson correlation coefficients ($r$) of all numeric features with `to
 
 ### Linear Regression Modeling
 Implements an Ordinary Least Squares (OLS) Linear Regression model using scikit-learn:
-$$\text{total\_cost} = \beta_0 + \beta_1(\text{distance}) + \beta_2(\text{weight}) + \beta_3(\text{fuel}) + \beta_4(\text{handling}) + \beta_5(\text{delivery\_days})$$
+
+`total_cost` = $\beta_0$ + $\beta_1$(`distance`) + $\beta_2$(`weight`) + $\beta_3$(`fuel`) + $\beta_4$(`handling`) + $\beta_5$(`delivery_days`)
+
 - **Train/Test Split**: 80% training data, 20% holdout test data (`random_state=42`).
 - **Metrics Computed**:
-  - $R^2$ (Coefficient of Determination): Measures proportion of cost variance explained.
-  - $\text{MAE}$ (Mean Absolute Error): Average monetary prediction error on unseen shipments.
-  - $\text{RMSE}$ (Root Mean Squared Error): Penalizes larger forecasting errors.
+  - Coefficient of Determination: Measures proportion of cost variance explained.
+  - Mean Absolute Error: Average monetary prediction error on unseen shipments.
+  - Root Mean Squared Error: Penalizes larger forecasting errors.
 
 ---
 
