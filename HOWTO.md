@@ -1,6 +1,6 @@
 # Logistics Cost Analyzer - Web Dashboard & Automation Guide (HOWTO)
 
-Welcome to the **Logistics Cost Analyzer Web Dashboard**. This guide explains every interactive feature, automated folder watcher, debouncing mechanism, run-specific packaging system, and structured JSON observability log.
+This guide explains interactive features, automated folder watcher, debouncing mechanism, run-specific packaging system, and structured JSON observability log.
 
 ---
 
@@ -119,7 +119,7 @@ Script: `structured_logger.py`
 
 ---
 
-## Tabs Overview
+## UI Tabs Overview
 
 * **Executive Dashboard**: KPI metric cards (Total Spend, Avg Cost, On-Time Rate, Model Accuracy), key findings, and strategic recommendations.
 * **Generated Charts (7)**: All 7 publication-grade matplotlib/seaborn charts with real-time regeneration.

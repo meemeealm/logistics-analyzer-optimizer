@@ -1,6 +1,0 @@
-{
-  "name": "Logistics Cost Analyzer",
-  "description": "A Python CLI data science tool for logistics cost optimization, route and carrier analysis, trend tracking, cost driver analysis, and ML regression.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

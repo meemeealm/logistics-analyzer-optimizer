@@ -1,8 +1,7 @@
 [project]
 name = "logistics-cost-analyzer"
 version = "0.1.0"
-description = "A professional Python CLI data science tool for logistics cost optimization, route and carrier analysis, trend tracking, and ML regression."
-readme = "README.md"
+description = "A Python CLI tool for logistics cost optimization, route and carrier analysis, trend tracking, and ML regression."
 requires-python = ">=3.10"
 dependencies = [
     "pandas>=2.0.0",

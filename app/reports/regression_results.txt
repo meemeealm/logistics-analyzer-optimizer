@@ -20,7 +20,7 @@ FEATURE COEFFICIENTS:
   • delivery_days           : -743.6176
 ------------------------------------------------------------
 BUSINESS INTERPRETATION:
-  The regression model accounts for approximately 98.5% of the total
+  The model accounts for approximately 98.5% of the total
   variation in logistics shipping costs across routes and carriers.
   On unseen test shipments, the average prediction error is ₱806.
 ============================================================
